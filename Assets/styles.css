@@ -18,25 +18,24 @@
   height: 100px;
   background-color: #fff;
   border: none;
-  margin-left: 80px;
+  margin-left: 180px;
   margin-right: 60px;
+  gap: 15rem;
   font-family: "Spartan", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 .logo {
   margin-left: 1.4rem;
   width: 10rem;
 }
-.nav-btns-container {
-  display: flex;
-  align-items: center;
-  margin-left: 8rem;
-  width: 73%;
-}
 .nav-links {
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 10rem;
   margin-top: 0.9rem;
   margin-left: 0.6rem;
 }
@@ -170,8 +169,8 @@
   border-bottom: 1px solid #ede5e5;
   padding-bottom: 90px;
   width: 100%;
-  gap: 10px;
-  padding-left: 60px;
+  gap: 50px;
+  padding-left: 250px;
 }
 .services-flex {
   overflow: hidden;
@@ -286,7 +285,7 @@
   padding-bottom: 90px;
   width: 100%;
   gap: 30px;
-  padding-left: 110px;
+  padding-left: 260px;
 }
 .product-flex {
   width: 290px;
@@ -314,23 +313,8 @@
   margin-bottom: 15px;
   font-weight: 500;
 }
-.product-item-text span {
-  color: #e65783;
-  font-size: 13px;
-  font-weight: 500;
-}
-.services-container a {
-  font-size: 13px;
-  color: #111111;
-  font-weight: 500;
-  letter-spacing: 2px;
-  display: inline-block;
-  padding: 0 15px 5px;
-  border-bottom: 2px solid #200204;
-  text-decoration: none;
-  margin-left: 40%;
-  font-family: "Spartan", sans-serif;
-}
+
+/*  */
 .contacts {
   background: rgb(248, 242, 242);
 }
@@ -365,57 +349,6 @@
   font-size: 240px;
   padding-bottom: 150px;
 }
-.contact-form-container {
-  width: 50%;
-  height: 32rem;
-  background-image: url(./callto-quote-bg.jpg.webp);
-  font-family: "Spartan", sans-serif;
-  background-size: cover;
-  overflow: hidden;
-}
-.contact-form-container h2 {
-  width: 60%;
-  margin-left: 80px;
-  margin-top: 80px;
-  color: #fff;
-  font-size: 25px;
-  font-weight: 400;
-}
-.form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-left: 80px;
-  margin-top: 40px;
-  margin-bottom: 80px;
-}
-.input-field {
-  width: 220px;
-  height: 35px;
-  padding: 5px 20px;
-  font-size: 16px;
-  font-family: "Spartan", sans-serif;
-  font-weight: 400;
-  outline: none;
-}
-.form textarea {
-  width: 560px;
-  outline: none;
-  padding-top: 1rem;
-  padding-left: 1rem;
-}
-.form button {
-  width: 250px;
-  height: 40px;
-  font-size: 16px;
-  background-color: #e65783;
-  color: #fff;
-  font-family: "Spartan", sans-serif;
-  padding: 12px 15px;
-  border: none;
-  outline: none;
-  overflow: hidden;
-}
 footer {
   background: rgb(248, 242, 242);
   padding-top: 90px;
@@ -423,38 +356,4 @@ footer {
 .footer-logo-label {
   width: 30%;
   margin-left: 40%;
-}
-.footer-logo-label img {
-  height: 60px;
-  display: block;
-}
-.footer-logo-label h6 {
-  font-size: 15px;
-  color: #200204;
-  margin-top: 18px;
-  margin-bottom: 40px;
-  font-family: "Spartan", sans-serif;
-  font-weight: 500;
-}
-.footer-insta-pics {
-  margin-left: 80px;
-  margin-right: 80px;
-  display: inline-block;
-}
-.footer-insta-pics img {
-  width: calc(20% - 10px);
-  margin-bottom: 10px;
-  margin-right: 10px;
-  float: left;
-}
-.footer-statement {
-  margin-left: 80px;
-  padding-bottom: 50px;
-  display: block;
-}
-.copyright-text {
-  font-size: 15px;
-  font-weight: 500;
-  color: #200204;
-  font-family: "Spartan", sans-serif;
 }
