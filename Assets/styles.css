@@ -14,13 +14,13 @@
 }
 .nav-bar {
   text-align: center;
-  height: 5rem;
+  height: 3rem;
   background-color: #fff;
   border: none;
   margin-left: 60px;
   margin-right: 60px;
   font-family: "Spartan", sans-serif;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }
 a {
   text-decoration: none;
@@ -28,7 +28,7 @@ a {
 }
 .logo {
   margin-left: 1.4rem;
-  width: 10rem;
+  width: 8rem;
 }
 .hero-container img {
   width: 100%;
@@ -41,7 +41,7 @@ a {
 .about:after {
   position: absolute;
   left: 0;
-  top: 54rem;
+  top: 40rem;
   right: 0;
   width: 1105px;
   height: 1070px;
@@ -62,7 +62,7 @@ a {
   align-items: center;
 }
 .left-about-text {
-  width: 50rem;
+  width: 35rem;
   flex-direction: column;
   gap: 1rem;
 }
@@ -74,7 +74,7 @@ a {
   margin-left: 1rem;
 }
 .about-text-2 {
-  font-size: 200px;
+  font-size: 150px;
   font-weight: 500;
   line-height: 125px;
   font-family: "Mattings Regular";
@@ -85,11 +85,15 @@ a {
   font-family: "Spartan", sans-serif;
   color: #200204;
   line-height: 30px;
+  font-size: 15px;
   margin-bottom: 65px;
 }
-
+.right-about-img{
+  width: 30rem;
+}
 .right-about-img img {
   width: 100%;
+  
 }
 .services {
   padding-top: 90px;
@@ -139,8 +143,8 @@ a {
 }
 .services-flex {
   overflow: hidden;
-  width: 23rem;
-  height: 40rem;
+  width: 16rem;
+  height: 35rem;
 }
 .services-flex img {
   width: 100%;
