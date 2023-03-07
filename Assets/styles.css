@@ -101,8 +101,6 @@ a {
 .services {
   padding-top: 90px;
   padding-bottom: 90px;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 .services::after {
   position: absolute;
@@ -139,10 +137,9 @@ a {
   flex-wrap: wrap;
   border-bottom: 1px solid #ede5e5;
   gap: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
   justify-content: center;
   align-items: center;
+  border: 1px solid red;
 }
 .services-flex {
   overflow: hidden;
