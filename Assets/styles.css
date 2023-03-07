@@ -139,7 +139,6 @@ a {
   gap: 50px;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 .services-flex {
   overflow: hidden;
